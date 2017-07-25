@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hust.nhatlx.mysishust">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/sis"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".Splash_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login_Activity" />
+        <activity
+            android:name=".TongQuan_Activity"
+            android:label="@string/title_activity_tong_quan_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TinTuc_Activity"
+            android:label="@string/title_activity_tin_tuc_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LichHoc_Activity"
+            android:label="@string/title_activity_lich_hoc_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MonNo_Activity"
+            android:label="@string/title_activity_mon_no_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BangDiem_Activity"
+            android:label="@string/title_activity_bang_diem_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DuKienHoc_Activity"
+            android:label="@string/title_activity_du_kien_hoc_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Webview_Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HocPhi_Activity"
+            android:label="@string/title_activity_hoc_phi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AboutMe_Activity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MySIS HUST</string>
+    <string name="bkhn">TRƯỜNG ĐẠI HỌC BÁCH KHOA HÀ NỘI</string>
+    <string name="mssv">Mã sinh viên</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="design_by_nitrogen">Design by Nitrogen</string>
+    <string name="title_activity_tong_quan_">Tổng Quan</string>
+    <string name="title_activity_tin_tuc_">Tin Tức</string>
+    <string name="title_activity_mon_no_">Môn Nợ</string>
+    <string name="title_activity_bang_diem_">Bảng Điểm</string>
+    <string name="title_activity_du_kien_hoc_">Dự Kiến - Mục Tiêu</string>
+    <string name="title_activity_lich_hoc_">Lịch Học</string>
+    <string name="title_activity_hoc_phi">Học Phí</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="cap_nhat_du_lieu">Cập nhật dữ liệu</string>
+    <string name="tin_tuc">Tin tức</string>
+    <string name="mon_no">Môn nợ</string>
+    <string name="lich_hoc">Lịch học</string>
+    <string name="hoc_phi">Học phí</string>
+    <string name="bang_diem">Bảng điểm</string>
+    <string name="du_kien_hoc">Dự kiến - Mục tiêu</string>
+    <string name="dang_xuat">Đăng xuất</string>
+    <string name="about_me">About me</string>
+    <string name="communicate">Communicate</string>
+    <string name="nhanxetcaithien">nhan_xet_cai_thien</string>
+    <string name="add">Thêm</string>
+    <string name="so_tin_chi_tich_luy">Số tín chỉ tích lũy:</string>
+    <string name="so_tin_chi_no">Số tín chỉ nợ:</string>
+    <string name="them_mon_du_kien">Cải thiện</string>
+    <string name="them_hoc_phan_moi">Môn mới</string>
+    <string name="huy">Hủy</string>
+    <string name="luu">Lưu</string>
+    <string name="xoa">Xóa</string>
+    <string name="chon_diem_muon_cai_thien">Chọn điểm muốn cải thiện đi thím :)</string>
+    <string name="xoa_mon_du_kien">Xóa môn dự kiến học?</string>
+    <string name="ma_hoc_phan">Mã học phần</string>
+    <string name="ten_hoc_phan">Tên học phần</string>
+    <string name="so_tin_chi">Số tín chỉ</string>
+
+
+    <string name="about_me_little">
+        Ứng dụng MySIS HUST là ứng dụng giúp sinh viên trường đại học Bách Khoa Hà Nội quản lý việc
+        học tập của mình một cách đơn giản, hiệu quả hơn. Ứng dụng được xấy dựng và phát triển bởi
+        một sinh viên K58 với mục đích học hỏi, vận dụng bài học vào thực tế và hoàn toàn PHI LỢI NHUẬN.
+        Bên cạnh đó cũng mong muốn đóng góp một điều gì đó nho nhỏ cho trường, cho các bạn sinh viên
+        khác, và có chút kỷ niệm sau khi ra trường. Cảm ơn các bạn đã sử dụng ứng dụng MySIS HUST,
+    mong là MySIS HUST có ích với các bạn. Chúc các bạn học tập tốt!</string>
+</resources>

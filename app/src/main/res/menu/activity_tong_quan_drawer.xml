@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_TinTuc"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/tin_tuc" />
+        <item
+            android:id="@+id/nav_HocPhi"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/hoc_phi" />
+        <item
+            android:id="@+id/nav_MonNo"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/mon_no" />
+        <item
+            android:id="@+id/nav_LichHoc"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/lich_hoc" />
+        <item
+            android:id="@+id/nav_BangDiem"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/bang_diem" />
+        <item
+            android:id="@+id/nav_DuKienHoc"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/du_kien_hoc" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_About_me"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/about_me" />
+            <item
+                android:id="@+id/nav_DangXuat"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/dang_xuat" />
+        </menu>
+    </item>
+
+</menu>

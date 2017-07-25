@@ -1,0 +1,164 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hust.nhatlx.mysishust.BangDiem_Activity">
+
+    <EditText
+        android:id="@+id/edtMaHocPhan_dialog"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/ma_hoc_phan"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <EditText
+        android:id="@+id/edtTenHocPhan_dialog"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/ten_hoc_phan"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/edtMaHocPhan_dialog"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <EditText
+        android:id="@+id/edtSoTinChi_dialog"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/so_tin_chi"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/edtTenHocPhan_dialog"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/btnLuu_New_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="@string/luu"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/radGDiemChu_dialog"
+        app:layout_constraintRight_toRightOf="@+id/radGDiemChu_dialog"
+        android:layout_marginEnd="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="201dp"
+        android:layout_height="187dp"
+        app:srcCompat="@drawable/addnew"
+        android:layout_marginRight="15dp"
+        app:layout_constraintRight_toRightOf="@+id/radGDiemChu_dialog"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnHuy_New_dialog"
+        android:layout_marginEnd="15dp" />
+
+    <RadioGroup
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/edtSoTinChi_dialog"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/radGDiemChu_dialog">
+
+        <RadioButton
+            android:id="@+id/radA_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A/A+" />
+
+        <RadioButton
+            android:id="@+id/radBplus_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/radB_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/radCplus_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C+" />
+
+        <RadioButton
+            android:id="@+id/radC_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C" />
+
+        <RadioButton
+            android:id="@+id/radDplus_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="D+" />
+
+        <RadioButton
+            android:id="@+id/radD_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="D" />
+
+        <RadioButton
+            android:id="@+id/radF_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="F" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnHuy_New_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="@string/huy"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/radGDiemChu_dialog"
+        app:layout_constraintRight_toLeftOf="@+id/btnLuu_New_dialog"
+        android:layout_marginEnd="10dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radGDiemChu_dialog"
+        android:id="@+id/linearLayout13"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/linearLayout17"></LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
